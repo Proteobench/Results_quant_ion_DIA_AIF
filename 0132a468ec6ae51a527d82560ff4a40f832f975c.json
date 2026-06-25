@@ -49,13 +49,9 @@
       "CV_q75": 0.2630845023286529,
       "CV_q90": 0.39553618758857056,
       "CV_q95": 0.49604475143656135,
-      "roc_auc": 0.8963379673290797,
-      "roc_auc_directional": 0.9391893993083077,
-      "nr_prec": 52690,
-      "nr_prec_HUMAN": 40271,
-      "nr_prec_YEAST": 11118,
-      "nr_prec_ECOLI": 1301,
-      "variance_epsilon_global": 0.6054533759869547
+      "variance_epsilon_global": 0.6054533759869547,
+      "nr_feature": 52690,
+      "roc_auc": 0.8963379673290797
     },
     "5": {
       "median_abs_epsilon_global": 0.1846736982357129,
@@ -88,13 +84,9 @@
       "CV_q75": 0.28072717850190587,
       "CV_q90": 0.427692121529181,
       "CV_q95": 0.5418110549945506,
-      "roc_auc": 0.8756569981113056,
-      "roc_auc_directional": 0.9299845194183773,
-      "nr_prec": 61835,
-      "nr_prec_HUMAN": 46602,
-      "nr_prec_YEAST": 13543,
-      "nr_prec_ECOLI": 1690,
-      "variance_epsilon_global": 0.7905744919187374
+      "variance_epsilon_global": 0.7905744919187374,
+      "nr_feature": 61835,
+      "roc_auc": 0.8756569981113056
     },
     "4": {
       "median_abs_epsilon_global": 0.2094713275059643,
@@ -127,13 +119,9 @@
       "CV_q75": 0.28971728272383396,
       "CV_q90": 0.44617130949297623,
       "CV_q95": 0.5703720737651086,
-      "roc_auc": 0.8501546119792709,
-      "roc_auc_directional": 0.9151532056664476,
-      "nr_prec": 69542,
-      "nr_prec_HUMAN": 51759,
-      "nr_prec_YEAST": 15613,
-      "nr_prec_ECOLI": 2170,
-      "variance_epsilon_global": 1.0331240295193707
+      "variance_epsilon_global": 1.0331240295193707,
+      "nr_feature": 69542,
+      "roc_auc": 0.8501546119792709
     },
     "3": {
       "median_abs_epsilon_global": 0.21824938097671343,
@@ -166,13 +154,9 @@
       "CV_q75": 0.29862696463341765,
       "CV_q90": 0.46100902657467113,
       "CV_q95": 0.5910713156449925,
-      "roc_auc": 0.8445247031299802,
-      "roc_auc_directional": 0.9127318394809902,
-      "nr_prec": 88525,
-      "nr_prec_HUMAN": 64468,
-      "nr_prec_YEAST": 20291,
-      "nr_prec_ECOLI": 3766,
-      "variance_epsilon_global": 1.0492666053603528
+      "variance_epsilon_global": 1.0492666053603528,
+      "nr_feature": 88525,
+      "roc_auc": 0.8445247031299802
     },
     "2": {
       "median_abs_epsilon_global": 0.22201827571095123,
@@ -205,13 +189,9 @@
       "CV_q75": 0.30212242379844195,
       "CV_q90": 0.4693599424935202,
       "CV_q95": 0.6041586128762335,
-      "roc_auc": 0.841918959709489,
-      "roc_auc_directional": 0.910449248359942,
-      "nr_prec": 93950,
-      "nr_prec_HUMAN": 67925,
-      "nr_prec_YEAST": 21818,
-      "nr_prec_ECOLI": 4207,
-      "variance_epsilon_global": 1.0643406614821096
+      "variance_epsilon_global": 1.0643406614821096,
+      "nr_feature": 93950,
+      "roc_auc": 0.841918959709489
     },
     "1": {
       "median_abs_epsilon_global": 0.22201827571095123,
@@ -244,25 +224,18 @@
       "CV_q75": 0.30212242379844195,
       "CV_q90": 0.4693599424935202,
       "CV_q95": 0.6041586128762335,
-      "roc_auc": 0.841918959709489,
-      "roc_auc_directional": 0.910449248359942,
-      "nr_prec": 96164,
-      "nr_prec_HUMAN": 69266,
-      "nr_prec_YEAST": 22512,
-      "nr_prec_ECOLI": 4386,
-      "variance_epsilon_global": 1.0643406614821094
+      "variance_epsilon_global": 1.0643406614821094,
+      "nr_feature": 96164,
+      "roc_auc": 0.841918959709489
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_prec": 96164,
+  "nr_feature": 96164,
   "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#8c564b",
-  "hover_text": "ProteoBench ID: DIA-NN_20250610_103102<br>Software tool: DIA-NN <br>Comment (private submission): ...",
-  "scatter_size": 20,
-  "fixed_mods": "unimod4",
-  "variable_mods": "UniMod:35/15.994915/M,UniMod:1/42.010565/*n",
+  "proteobench_version": "0.16.4",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "M[Oxidation], N-term[Acetyl]",
   "max_mods": 1,
   "min_precursor_charge": 1,
   "max_precursor_charge": 4,
@@ -278,14 +251,16 @@
   "mean_abs_epsilon_precision_global": 0.5529822481506188,
   "median_abs_epsilon_precision_eq_species": 0.24424353607942173,
   "mean_abs_epsilon_precision_eq_species": 0.5544835078642856,
-  "min_precursor_mz": "400",
-  "max_precursor_mz": "1000",
-  "min_fragment_mz": "50",
-  "max_fragment_mz": "2000",
+  "min_precursor_mz": 400,
+  "max_precursor_mz": 1000,
+  "min_fragment_mz": 50,
+  "max_fragment_mz": 2000,
   "predictors_library": {
     "RT": "DIANN",
     "IM": "DIANN",
     "MS2_int": "DIANN"
   },
-  "scan_window": 13
+  "scan_window": 13,
+  "semi_specific": NaN,
+  "semi_enzymatic": NaN
 }
